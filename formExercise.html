@@ -1,0 +1,41 @@
+<html>
+
+<body>
+<h1>        Send A Query        </h1>
+<br>
+<label for="Name">Enter your Name:</lable>  
+<input id="Name" type="text">
+<br>
+<label for="EmailID">Enter EmailID:</lable>
+<input id="EmailId" type="email">
+<br>
+<label for="Destinationplaces">Select your Destination:</label>
+<input id="Destinations" list="Places">
+<datalist id="Places">
+    <option value="Goa"></option>
+    <option value="Delhi"></option>
+    <option value="Madhurai"></option>
+    <option Value="Vizag"></option>
+    <option value="Tiruchy"></option>
+    <option value="Banglore"></option>
+</datalist>
+<br>
+<lable for="No. of Travelers">Enter Number of Travelers:</lable>
+<input id="No.ofTravelers" type="number">
+<br>
+<lable for="Phone Number">Enter Contact Number:</lable>
+<input id="Ph.number" type="tel">
+<br>
+<label for="query">Enter your Query:</label>
+<textarea id="query" rows="5" cols="15"></textarea>
+<br>
+<Label for="notification">Select your Notification:</Label>
+<input id="notify" type="checkbox">/viaEmail
+<input id="notify" type="checkbox">/ViaSMS
+<br>
+
+<button id="raisequery" type="submit">Raise your Query:</button>
+
+
+</body>
+</html>
